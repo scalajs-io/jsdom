@@ -1,6 +1,6 @@
 {
-  "name": "jsdom-scalajs",
-  "version": "0.3.1",
+  "name": "jsdom-sjs",
+  "version": "9.10.0",
   "private": true,
   "dependencies": {
     "jquery": "^3.1.1",
