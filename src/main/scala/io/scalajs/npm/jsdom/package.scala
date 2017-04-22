@@ -1,7 +1,7 @@
 package io.scalajs.npm
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * jsdom package object
@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
 package object jsdom {
 
   @js.native
-  @JSName("window")
+  @JSGlobal("window")
   object window extends JsDomWindowWithJQuery
 
 }
