@@ -3,7 +3,7 @@ package io.scalajs.npm.jsdom
 import io.scalajs.nodejs.Error
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * JsDom Configuration Options
@@ -44,7 +44,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param strictSSL               if true, requires SSL certificates be valid; defaults to true, see request module for more details.
   * @param proxy                   a URL for a HTTP proxy to use for the requests.
   */
-@ScalaJSDefined
+
 class EnvironmentOptions(var html: js.UndefOr[String] = js.undefined,
                          var file: js.UndefOr[String] = js.undefined,
                          var url: js.UndefOr[String] = js.undefined,
