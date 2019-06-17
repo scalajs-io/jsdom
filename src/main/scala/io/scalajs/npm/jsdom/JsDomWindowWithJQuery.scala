@@ -10,6 +10,6 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-class JsDomWindowWithJQuery extends Window {
+trait JsDomWindowWithJQuery extends Window {
   val $ : JQuery = js.native
 }
